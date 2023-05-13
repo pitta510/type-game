@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-align: center;
+
+}
+h1{
+  font-size:2rem;
+  margin-bottom: .5rem;
+}
+
+.instrucoes {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  /* text-align: center; */
+}
+
+#texto {
+  font-size: 1.2rem;
+  background-color: #f3f3f3;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#entrada {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  color: darkgray;
+}
+
+button {
+  font-size: 1rem;
+  padding:  .6rem 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0053b3;
+}
+
+#alternarTema {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+/* tema claro e escuro */
+
+.claro{
+  background-color: #fff;
+  color: #333;
+ 
+}
+
+.escuro{
+ background-color:#333 ;
+ color: #fff;
+}
+
+.escuro #texto{
+  color:#333;
+}
